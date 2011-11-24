@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/relativeLayout1" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" 
+    	>
+    	
+    	<TextView android:id="@+id/gameNameTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Game Name" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginTop="65dp"></TextView>
+        <TextView android:id="@+id/maxNumTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Maximum Number of Assassins" android:layout_below="@+id/gameNameTv" android:layout_alignParentLeft="true" android:layout_marginTop="30dp"></TextView>
+    	<TextView android:id="@+id/locationTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Location" android:layout_below="@+id/maxNumTv" android:layout_alignParentLeft="true" android:layout_marginTop="30dp"></TextView>
+  		<TextView android:id="@+id/visibilityTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_prompt" android:layout_below="@+id/locationTv" android:layout_alignParentLeft="true" android:layout_marginTop="30dp"></TextView>
+  		
+  		<Spinner android:id="@+id/visibilitySpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/visibilityTv" android:layout_alignLeft="@+id/locationEt" />
+  		<EditText android:id="@+id/locationEt" android:layout_height="wrap_content" android:layout_alignTop="@+id/locationTv" android:layout_toRightOf="@+id/locationTv" android:layout_width="150dp"></EditText>
+  		<EditText android:id="@+id/maxNumEt" android:layout_height="wrap_content" android:layout_alignTop="@+id/maxNumTv" android:layout_toRightOf="@+id/maxNumTv" android:layout_width="150dp"></EditText>
+  		<EditText android:id="@+id/gameNameEt" android:layout_height="wrap_content" android:layout_alignTop="@+id/gameNameTv" android:layout_toRightOf="@+id/gameNameTv" android:layout_width="150dp"></EditText>
+  		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/visibilitySpinner" android:layout_centerHorizontal="true" android:layout_marginTop="33dp" android:text="Create Game" android:id="@+id/createGameBtn"></Button>
+
+  		
+    
+    </RelativeLayout>

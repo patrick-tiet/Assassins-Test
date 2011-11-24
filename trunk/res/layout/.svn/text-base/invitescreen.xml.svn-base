@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <RelativeLayout 
+    	android:id="@+id/relativeLayout1" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent" 
+    	xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:text="Invite Your Friends"></TextView>
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="20dp" android:text="Add Friends Using:"></TextView>
+        
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/textView2" android:layout_alignParentLeft="true" android:layout_marginTop="16dp" android:text="Facebook" android:id="@+id/facebookInviteBtn"></Button>
+        
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/facebookInviteBtn" android:layout_centerHorizontal="true" android:text="Phone" android:id="@+id/phoneInviteBtn"></Button>
+        
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/phoneInviteBtn" android:layout_alignParentRight="true" android:text="Email" android:id="@+id/emailInviteBtn"></Button>
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_below="@+id/phoneInviteBtn" android:layout_centerHorizontal="true" android:layout_marginTop="33dp" android:text="----------------------------------------------------------------------------------------------------"></TextView>
+        
+        <ListView android:id="@+id/listView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/textView3" android:layout_alignParentLeft="true" android:layout_marginTop="33dp"></ListView>
+        
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/listView1" android:layout_centerHorizontal="true" android:layout_marginTop="34dp" android:text="Invite" android:id="@+id/inviteBtn"></Button>
+    	
+    	
+    	
+    	
+    </RelativeLayout>
+

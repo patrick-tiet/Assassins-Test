@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assassins</string>
+    <string name="voting">Voting Screen</string>
+    <string name="val">Valid Kill?</string>
+    <string name="game">Game Screen</string>
+    <string name="target">Target Info</string>
+    <string name="t1">John Doe</string>
+
+    <string name="privacy_prompt">Visibility</string>
+    <string-array name="privacy_array">
+        <item>Public</item>
+        <item>Private</item>
+    </string-array>
+</resources>

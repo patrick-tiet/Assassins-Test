@@ -1,0 +1,18 @@
+<!-- <resources>
+    <style name="ErrorDialogTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>       
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+	</style>
+	
+	<style name="Theme.SplashTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+		<item name="android:windowBackground">@drawable/background</item>
+		<item name="android:colorBackgroundCacheHint">@null</item>
+	</style>
+
+</resources> -->
+<resources></resources>

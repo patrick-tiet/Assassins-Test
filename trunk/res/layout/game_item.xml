@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cs169.android.assassins.GameItem
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:focusable="false"
+	android:focusableInTouchMode="false"
+	>
+
+	<RelativeLayout 
+	    android:id="@+id/relativeLayoutGameItem"
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:focusable="false"
+		android:focusableInTouchMode="false" >
+	    
+	    <TextView 
+	    android:id="@+id/textViewGameName"    
+	    android:layout_width="120dip"
+	    android:layout_height="wrap_content"
+	    android:text="Game Name"
+	    />
+	    <TextView 
+	    android:id="@+id/textViewGameStatus"    
+	    android:layout_width="50dip"
+	    android:layout_height="wrap_content"
+	    android:text="Status"
+	    android:layout_toRightOf="@+id/textViewGameName"
+	    />
+	    <TextView 
+	    android:id="@+id/textViewGamePublic" 
+	    android:layout_width="50dip"
+	    android:layout_height="wrap_content"
+	    android:text="Public"
+	    android:layout_toRightOf="@+id/textViewGameStatus"
+	    />
+	    <TextView 
+	    android:id="@+id/textViewGameMaxPlayer"    
+	    android:layout_width="30dip"
+	    android:layout_height="wrap_content"
+	    android:text="Max"
+	    android:layout_toRightOf="@+id/textViewGamePublic"
+	    />
+	    <TextView 
+	    android:id="@+id/textViewGameCreator" 
+	    android:layout_width="50dip"
+	    android:layout_height="wrap_content"
+	    android:text="Creator"
+	    android:layout_toRightOf="@+id/textViewGameMaxPlayer"
+	    />
+    
+	</RelativeLayout>
+</com.cs169.android.assassins.GameItem>

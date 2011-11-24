@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cs169.android.assassins.PlayerItem
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:focusable="false"
+	android:focusableInTouchMode="false"
+	>
+
+	<RelativeLayout 
+	    android:id="@+id/relativeLayoutGameItem"
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:focusable="false"
+		android:focusableInTouchMode="false" >
+	    
+	    <TextView 
+	    android:id="@+id/playerNameTv"    
+	    android:layout_width="120dip"
+	    android:layout_height="wrap_content"
+	    android:text="Player Name"
+	    />
+	    
+    
+	</RelativeLayout>
+</com.cs169.android.assassins.PlayerItem>
