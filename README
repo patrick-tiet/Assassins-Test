@@ -1,0 +1,16 @@
+Running the backend:
+
+The Android client depends on the backend hosted on EC2. If the server isn't up (http://107.20.135.212:61000/ should return a Django error page), then you may start the server by logging into the EC2 server (assassins/welcome for username/password) and going to ~/myproject then running the command: "python manage.py runserver 0.0.0.0:61000".
+
+
+Running the Android code:
+
+We have provided an .apk file necessary to run the application. 
+Follow the guide to get the Android SDK and emulator set up at: 
+http://bid.berkeley.edu/cs160-fall11/index.php/Tips_and_Tricks
+
+To install the .apk file on emulator, you can either email the file to yourself and download from the emulated phone or you can try:
+http://www.botskool.com/geeks/how-install-apk-files-android-windows-sdk-emulator
+
+Bug Tracking:
+We are hosting the code and files on github. To file any bugs, you may just file issues on github.
